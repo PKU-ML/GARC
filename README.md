@@ -21,9 +21,24 @@ The code for ACR and ARC calculation can be found in ``ARC.py``.
 
 ## ACR results
 
-We observe the relation between ARC and downstream performnace of SimCLR with RandomResizedCrop of different augmentation strength in the following figure
+We observe the relation between ARC and downstream performance of SimCLR with RandomResizedCrop of different augmentation strength in the following figure
 
 ![image](https://user-images.githubusercontent.com/81618067/156936579-a2f2ae6e-0cea-4da5-9444-8e6ba6a5a64e.png)
+
+
+
+## GARC Calculation
+
+To avoid these outliers, we then generalize the definition of ACR.
+
+To calculate GACR and GARC with trained models, run ``evaluate_AGRC.py`` with following commands
+
+```
+./GARC_test.sh
+```
+
+The code for GACR and GARC calculation can be found in ``ARC.py``.
+
 
 ## Synthetic results
 
