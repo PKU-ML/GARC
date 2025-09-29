@@ -29,7 +29,7 @@ We observe the relation between ARC and downstream performance of SimCLR with Ra
 
 ## GARC Calculation
 
-To avoid these outliers, we then generalize the definition of ACR.
+To avoid the outliers, we then generalize the definition of ACR.
 
 To calculate GACR and GARC with trained models, run ``evaluate_AGRC.py`` with following commands
 
