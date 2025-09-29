@@ -1,7 +1,6 @@
 # ARC
 
-This repo includes the code for the paper [An Augmentation
-Overlap Theory of Contrastive Learning.](https://openreview.net/pdf?id=ECvgmYVyeUz)
+
 
 ## Dependency
 
