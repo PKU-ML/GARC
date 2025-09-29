@@ -30,7 +30,7 @@ We observe the relation between ARC and downstream performance of SimCLR with Ra
 
 To avoid the outliers, we propose a generalized version of ACR as GACR. Correspondingly, ARC is extended to GARC.
 
-To calculate GACR and GARC with trained models, run ``evaluate_AGRC.py`` with following commands
+To calculate GACR and GARC with trained models, run ``evaluate_AGRC.py`` with the following commands
 
 ```
 ./GARC_test.sh
@@ -42,6 +42,14 @@ The code for GACR and GARC calculation can be found in ``ARC.py``.
 ## Synthetic results
 
 The code of the synthetic dataset can be found in ``synthetic_data.ipynb``.
+
+## Visualization of Augmentation Graph
+
+The augmentation graph of CIFAR-10 with different strength r of RandomResizedCrop can be visualized with the following commands. 
+
+```
+python connect_cifar.py
+```
 
 
 ## Acknowledgement
