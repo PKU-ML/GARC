@@ -1,7 +1,7 @@
 # ARC
 
-This repo includes the code for the ICLR 2022 paper [Chaos is a Ladder: A New Theoretical Understanding of Contrastive Learning
-via Augmentation Overlap.](https://openreview.net/pdf?id=ECvgmYVyeUz)
+This repo includes the code for the paper [An Augmentation
+Overlap Theory of Contrastive Learning.](https://openreview.net/pdf?id=ECvgmYVyeUz)
 
 ## Dependency
 
