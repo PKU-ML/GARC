@@ -28,7 +28,7 @@ We observe the relation between ARC and downstream performance of SimCLR with Ra
 
 ## GARC Calculation
 
-To avoid the outliers, we then generalize the definition of ACR.
+To avoid the outliers, we then generalize the definition of ACR to GARC.
 
 To calculate GACR and GARC with trained models, run ``evaluate_AGRC.py`` with following commands
 
@@ -43,19 +43,6 @@ The code for GACR and GARC calculation can be found in ``ARC.py``.
 
 The code of the synthetic dataset can be found in ``synthetic_data.ipynb``.
 
-## Citing this work
-
-If you find our code useful, please cite
-```
-@inproceedings{
-wang2022chaos,
-title={Chaos is a Ladder: A New Understanding of Contrastive Learning},
-author={Yifei Wang and Qi Zhang and Yisen Wang and Jiansheng Yang and Zhouchen Lin},
-booktitle={International Conference on Learning Representations},
-year={2022},
-url={https://openreview.net/forum?id=ECvgmYVyeUz}
-}
-```
 
 ## Acknowledgement
 
