@@ -18,7 +18,7 @@ To calculate ACR and ARC with trained models, run ``evaluate_ARC.py`` with follo
 
 The code for ACR and ARC calculation can be found in ``ARC.py``.
 
-## ACR results
+## ARC results
 
 We observe the relation between ARC and downstream performance of SimCLR with RandomResizedCrop of different augmentation strength in the following figure
 
